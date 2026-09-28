@@ -1,0 +1,60 @@
+:root{
+    --color-border-normal: #cccccc;
+    --color-border-foco: #007bff;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffff;
+    color: #04433a;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+    background: rgb(174, 217, 226);
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0px 4px 14px rgba(7, 43, 40, 0.8); 
+    text-align: center;
+
+}
+
+.menu{
+    max-width: 500px;
+    margin: 24px auto;
+    padding: 0 20px;
+}
+
+.sign{
+    border-radius: 24px;
+    padding: 8px;
+    width: 220px;
+    background: #04433a;
+    color: #ffff
+}
+
+.sing buttom:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.ingresar{
+    width: 220px;
+    padding: 8px;
+    border: 1px solid  var(--color-border-normal);
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.ingresar:focus {
+    border: 2px solid var(--color-border-foco)
+}    
